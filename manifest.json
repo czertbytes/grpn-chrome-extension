@@ -1,0 +1,15 @@
+{
+  "name": "Groupon CityDeal",
+  "version": "1.0",
+  "description": "blah blah groupon",
+  "icons": { "16": "icon16.png", "48": "icon48.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Groupon CityDeal",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "http://www.groupon.de/",
+    "https://ajax.googleapis.com/"
+  ]
+}
